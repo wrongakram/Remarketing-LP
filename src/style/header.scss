@@ -48,7 +48,6 @@ $vs-yellow: #eec01c;
     justify-content: flex-start;
     align-items: center;
     position: relative;
-
     .messaging {
       width: 450px;
       color: $text-b;
@@ -88,4 +87,51 @@ $vs-yellow: #eec01c;
     }
 
   }
+}
+
+// Content
+
+.content {
+  clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0 100%);
+  z-index: -2;
+  position: relative;
+  overflow: hidden;
+  margin-top: -150px;
+  .inner {
+    padding: 10rem 0rem;
+    margin: 0 auto;
+    max-width: 800px;
+    color: $text-b;
+    h3 {
+      font-size: 1.2rem;
+    }
+    ul {
+      li {
+        font-size: .9rem;
+      }
+    }
+    p {
+      font-size: .9rem;
+    }
+    .partners {
+      img {
+
+      }
+    }
+  }
+  .geo {
+    position: absolute;
+    top: -120px;
+    left: -400px;
+    width: auto;
+    height: 950px;
+  }
+}
+
+
+// Form
+.form {
+    clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0 100%);
+    background: $text-b;
+    height: 400px;
 }
