@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { Spring, config} from 'react-spring'
 
-const Content = ({ siteTitle }) => (
+const Content = () => (
   <Spring
   from={{
     opacity: 0,
@@ -33,7 +32,7 @@ const Content = ({ siteTitle }) => (
       </div>
 
       </div>
-      <img className="geo" src={require('../images/geo.png')} />
+      <img alt="geo graphic" className="geo" src={require('../images/geo.png')} />
     </div>}
     </Spring>
 )

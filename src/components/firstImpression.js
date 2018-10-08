@@ -72,7 +72,7 @@ const First = ({ siteTitle }) => (
       delay={1200}
       config={config.slow}
     >
-    {(props) =>  <div className="img_container"> <img style={props} src={require('../images/main-image.png')} />   </div> }
+    {(props) =>  <div className="img_container"> <img alt="friendly people" style={props} src={require('../images/main-image.png')} />   </div> }
     </Spring>
     </div>
     </div>}

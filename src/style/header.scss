@@ -131,7 +131,34 @@ $vs-yellow: #eec01c;
 
 // Form
 .form {
-    clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0 100%);
+    clip-path: polygon(0% 0%, 100% 20%, 100% 100%, 0 80%);
     background: $text-b;
-    height: 400px;
+    height: 700px;
+    padding: 3rem;
+    .inner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: $w;
+    }
+    .image_container {
+      margin-right: 125px;
+    }
+    .form_container {
+      h3 {
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 1.7rem;
+      }
+      p {
+        width: 600px;
+        font-size: .9rem;
+        font-weight: 300;
+      }
+      form#basic-form {
+        input {
+          padding: 10px;
+        }
+      }
+    }
 }
