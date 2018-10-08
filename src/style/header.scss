@@ -1,0 +1,91 @@
+
+
+$text-b: #2a445f;
+$w: #fff;
+$vs-blue: #74cee0;
+$vs-yellow: #eec01c;
+
+
+
+.nav-wrapper {
+  z-index: 10;
+  margin-bottom: 1.45rem;
+  height: 100px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  .inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.45rem 1.0875rem;
+    a {
+      text-decoration: none;
+      .navnumber {
+        font-family: 'Avenir',sans-serif;
+        color: #fff;
+        background: $text-b;
+        padding: 10px 26px;
+        border-radius: 4px;
+      }
+    }
+  }
+}
+
+
+// First impression area
+.firstwrapper {
+  z-index: 8;
+  background: linear-gradient( $w , $vs-blue );
+  height: 700px;
+  overflow: hidden;
+  clip-path: polygon(0% 0, 100% 0%, 100% 80%, 0 100%);
+  .firstimpression {
+    margin: 0 auto;
+    max-width: 1140px;
+    padding-top: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+
+    .messaging {
+      width: 450px;
+      color: $text-b;
+      h2 {
+        text-transform: uppercase;
+        font-size: 36px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 300;
+      }
+      .btn_row {
+        margin-top: 40px;
+        a {
+          background: $vs-yellow;
+          padding: 14px 30px;
+          border-radius: 3px;
+          text-decoration: none;
+          text-transform: uppercase;
+          font-weight: 700;
+          color: $text-b;
+          transition: .3s ease-in-out;
+          &:hover {
+            background: lighten($vs-yellow, 15%)
+          }
+        }
+      }
+    }
+    .img_container {
+      img {
+        position: absolute;
+        display: block;
+        width: 800px;
+        top: 175px;
+        left: 350px;
+      }
+    }
+
+  }
+}
