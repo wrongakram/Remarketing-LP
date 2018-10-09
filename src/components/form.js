@@ -3,9 +3,10 @@ import { Form, Text } from 'informed';
 
 const FormField = () => (
     <Form id="basic-form">
-      <Text field="name" placeholder="name" id="form-name" />
-      <Text field="email" placeholder="email" id="form-email" />
-      <button type="submit">Submit</button>
+      <Text field="name" placeholder="Name" id="form-name" />
+      <span className="divider"></span>
+      <Text field="email" placeholder="Email address" id="form-email" />
+      <button type="submit">Send it to me</button>
     </Form>
 )
 

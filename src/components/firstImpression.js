@@ -28,7 +28,7 @@ const First = ({ siteTitle }) => (
         delay={600}
         config={config.stiff}
       >
-      {(props) => <h2 style={props}>Relax, weve got you. </h2>}
+      {(props) => <h2 style={props}>Relax, we've got you. </h2>}
       </Spring>
       <Spring
         from={{

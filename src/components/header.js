@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+
 import '../style/header.scss'
 import { Spring, config} from 'react-spring'
 
