@@ -48,7 +48,6 @@ $vs-yellow: #eec01c;
     padding-top: 200px;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     position: relative;
     .messaging {
       width: 450px;
@@ -80,11 +79,8 @@ $vs-yellow: #eec01c;
     }
     .img_container {
       img {
-        position: absolute;
         display: block;
         width: 800px;
-        top: 175px;
-        left: 350px;
       }
     }
 
@@ -225,6 +221,18 @@ footer {
   }
 }
 
+
+#mail-honey {
+  visibility: hidden;
+  position: absolute !important;
+  top: 0;
+}
+
+
+
+
+//media querys
+
 @media (max-width: 1280px) {
   .nav-wrapper .inner {
     justify-content: space-between;
@@ -249,8 +257,7 @@ footer {
     .img_container {
       img {
         width: 650px;
-        top: 210px;
-        left: 310px;
+        margin-top: 75px
       }
     }
   }
@@ -272,8 +279,7 @@ footer {
     .img_container {
       img {
         width: 650px;
-        top: 380px;
-        left: 130px;
+        margin: 0 auto;
       }
     }
   }
@@ -338,8 +344,7 @@ footer {
       padding-top: 150px;
       .img_container img {
             width: 475px;
-            top: 440px;
-            left: 40px;
+            margin-top: 40px;
         }
     }
   }

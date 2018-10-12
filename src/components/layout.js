@@ -27,7 +27,6 @@ const Layout = ({ children }) => (
             { name: 'keywords', content: 'sample, something' },
           ]}
         >
-        //Marchex
         <script type="text/javascript">
         vs_account_id      = "CA6phErgoUEGfQDm";
         </script>

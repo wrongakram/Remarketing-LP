@@ -1,14 +1,16 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { Spring, config} from 'react-spring'
-
+import { Parallax } from 'react-scroll-parallax';
 const First = ({ siteTitle }) => (
   <Spring
     from={{
-    opacity: 0
+    opacity: 0,
+    width: '0%'
     }}
     to={{
-    opacity: 1
+    opacity: 1,
+    width: '100%'
     }}
     config={{ tension: 1000, friction: 200, delay: 200, velocity: 100 }}
   >
@@ -28,7 +30,7 @@ const First = ({ siteTitle }) => (
         delay={600}
         config={config.stiff}
       >
-      {(props) => <h2 style={props}>Relax, we've got you. </h2>}
+      {(props) => <h2 style={props}>Relax, we&apos;ve got you.</h2>}
       </Spring>
       <Spring
         from={{
@@ -60,6 +62,7 @@ const First = ({ siteTitle }) => (
       </Spring>
 
     </div>
+
     <Spring
       from={{
         opacity: 0,
@@ -72,8 +75,16 @@ const First = ({ siteTitle }) => (
       delay={1200}
       config={config.slow}
     >
-    {(props) =>  <div className="img_container"> <img alt="friendly people" style={props} src={require('../images/main-image.png')} />   </div> }
+    {(props) =>  <Parallax
+                    className="img_container"
+                    offsetYMax={20}
+                    offsetYMin={-30}
+                    slowerScrollRate
+                    tag="figure">
+                      <img alt="friendly people" style={props} src={require('../images/main-image.png')} />
+                    </Parallax> }
     </Spring>
+
     </div>
     </div>}
 

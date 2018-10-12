@@ -30,7 +30,6 @@ const Content = () => (
         <img alt="google partners" src={require('../images/google-partner.png')} />
         <img alt="bing partners" src={require('../images/bing-partner.png')} />
       </div>
-
       </div>
       <img alt="geo graphic" className="geo" src={require('../images/geo.png')} />
     </div>}
