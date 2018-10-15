@@ -27,6 +27,12 @@ const Layout = ({ children }) => (
             { name: 'keywords', content: 'sample, something' },
           ]}
         >
+        <script type="text/javascript">
+        vs_account_id      = "CA6phErgoUEGfQDm";
+        </script>
+        <script type="text/javascript" src="https://rw1.calls.net/euinc/number-changer.js">
+        </script>
+
         <html lang="en" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
