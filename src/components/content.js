@@ -1,5 +1,7 @@
 import React from 'react'
 import { Spring, config} from 'react-spring'
+import { Parallax } from 'react-scroll-parallax';
+
 
 const Content = () => (
   <Spring
@@ -31,7 +33,23 @@ const Content = () => (
         <img alt="bing partners" src={require('../images/bing-partner.png')} />
       </div>
       </div>
-      <img alt="geo graphic" className="geo" src={require('../images/geo.png')} />
+
+      <Parallax
+        className="geo"
+        offsetYMax={40}
+        offsetYMin={-20}
+        slowerScrollRate
+        tag="figure">
+              <img alt="geo graphic"  src={require('../images/geo.png')} />
+      </Parallax>
+      <Parallax
+        className="geotop"
+        offsetYMax={20}
+        offsetYMin={-60}
+        slowerScrollRate
+        tag="figure">
+        <img alt="geo" src={require('../images/geo_top.png')} />
+      </Parallax>
     </div>}
     </Spring>
 )

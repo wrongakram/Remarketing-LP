@@ -119,11 +119,20 @@ $vs-yellow: #eec01c;
   }
   .geo {
     position: absolute;
-    top: 100px;
+    top: -200px;
+    left: -200px;
+    width: auto;
+    height: 1100px;
+    z-index: -1;
+  }
+  .geotop {
+    position: absolute;
+    top: -40px;
     left: -400px;
     width: auto;
-    height: 950px;
+    height: 450px;
     z-index: -1;
+
   }
 }
 
@@ -334,6 +343,9 @@ footer {
           margin-right: 10px;
         }
       }
+    }
+    .geo {
+      display: none;
     }
 }
 

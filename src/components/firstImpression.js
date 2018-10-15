@@ -5,12 +5,10 @@ import { Parallax } from 'react-scroll-parallax';
 const First = ({ siteTitle }) => (
   <Spring
     from={{
-    opacity: 0,
-    width: '0%'
+    opacity: 0
     }}
     to={{
-    opacity: 1,
-    width: '100%'
+    opacity: 1
     }}
     config={{ tension: 1000, friction: 200, delay: 200, velocity: 100 }}
   >
