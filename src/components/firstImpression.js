@@ -56,7 +56,7 @@ const First = ({ siteTitle }) => (
         delay={1000}
         config={config.stiff}
       >
-      {(props) => <div style={props} className="btn_row"><Link to='/'>Find out how</Link></div> }
+      {(props) => <div style={props} className="btn_row"><a target='_blank' href='http://vitalstorm.com/'>Find out how</a></div> }
       </Spring>
 
     </div>
