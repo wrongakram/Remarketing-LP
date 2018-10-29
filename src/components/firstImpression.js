@@ -42,7 +42,7 @@ const First = ({ siteTitle }) => (
         delay={800}
         config={config.stiff}
       >
-      {(props) =>  <p style={props}>VitalStorm is a digital marketing agency that specializes in marketing for home service companies. We’ve been in business since 2003, and we’ve been focused on serving the home service industry all the while. <b>Our clients trust us</b> because we understand their sales goals and we know how to meet them.</p>}
+      {(props) =>  <p style={props}>VitalStorm is a digital marketing agency that specializes in marketing for home service companies. We’ve been in business since 2011, and we’ve been focused on serving the home service industry all the while. <b>Our clients trust us</b> because we understand their sales goals and we know how to meet them.</p>}
       </Spring>
       <Spring
         from={{
