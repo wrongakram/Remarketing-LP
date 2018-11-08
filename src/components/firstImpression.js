@@ -2,6 +2,12 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { Spring, config} from 'react-spring'
 import { Parallax } from 'react-scroll-parallax';
+
+var Scroll = require('react-scroll');
+var scroller = Scroll.scroller;
+
+
+
 const First = ({ siteTitle }) => (
   <Spring
     from={{
@@ -56,7 +62,11 @@ const First = ({ siteTitle }) => (
         delay={1000}
         config={config.stiff}
       >
-      {(props) => <div style={props} className="btn_row"><a target='_blank' href='http://vitalstorm.com/'>Find out how</a></div> }
+      {(props) => <div style={props} className="btn_row"><a onClick={() => {scroller.scrollTo('scroll-to-element', {
+        duration: 800,
+        delay: 0,
+        smooth: 'easeInOutQuart'
+      })}}>Find out how</a></div> }
       </Spring>
 
     </div>

@@ -71,6 +71,7 @@ $vs-yellow: #eec01c;
           font-weight: 700;
           color: $text-b;
           transition: .3s ease-in-out;
+          cursor: pointer;
           &:hover {
             background: lighten($vs-yellow, 15%)
           }

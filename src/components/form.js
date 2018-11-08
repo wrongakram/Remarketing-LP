@@ -1,4 +1,8 @@
 import React from 'react'
+var Scroll = require('react-scroll');
+var Element = Scroll.Element;
+
+
 
 
 class FormSection extends React.Component {
@@ -35,6 +39,7 @@ class FormSection extends React.Component {
   render() {
     return (
       <div className="form">
+      <Element name="scroll-to-element" className="element"></Element>
       <div className="inner">
       <div className="image_container">
         <img src={require('../images/secondary-image.png')} alt="technicians"/>

@@ -16,7 +16,25 @@ module.exports = {
         icon: 'src/images/vitalstorm-icon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-58620967-2",
+        // Puts tracking script in the head instead of the body
+        head: true,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Enables Google Optimize using your container Id
+        optimizeId: "lDLlpoChRLS43ZmVUK_mWg",
+        // Any additional create only fields (optional)
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+      },
+    },
     'gatsby-plugin-offline',
     `gatsby-plugin-sass`
   ],
+  pathPrefix: `/trustworthy-marketing`,
 }

@@ -26,43 +26,43 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-de7200ad123e547cb269.js"
+    "url": "webpack-runtime-cfcb7e9dddd0c6a59ee7.js"
   },
   {
-    "url": "app-73d1a95f6d31c67424a1.js"
+    "url": "app-8f524b35b3a4b6775348.js"
   },
   {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-9538d068e15af3827374.js"
+    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-9510ac3917df244e0207.js"
   },
   {
     "url": "index.html",
-    "revision": "994e4376f4ce40e5f4f7c786e7377074"
+    "revision": "3782908b63d2b361078a2fab1d3ec451"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "47cd159628fec235d9b4b201de84ab0b"
+    "revision": "f9b450b9b14545e08727d36ac31b9b0a"
   },
   {
-    "url": "1.1de3f000e38bf7c5579f.css"
+    "url": "1.99bf560f580910a340b9.css"
   },
   {
-    "url": "component---src-pages-index-js-5899bb1c5c013137a012.js"
+    "url": "component---src-pages-index-js-b53b468ef2f499018734.js"
   },
   {
-    "url": "1-74855c4b095ff671f451.js"
+    "url": "1-240bdcfebe772290a4e1.js"
   },
   {
-    "url": "8-f9c12a39d096bdd5a28b.js"
+    "url": "8-670394b487e22652f9a0.js"
   },
   {
-    "url": "0-d85de4bcfc41a864841c.js"
+    "url": "0-600de70f322e7a771a75.js"
   },
   {
     "url": "static/d/173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E.json",
     "revision": "c2508676a2f33ea9f1f0bf472997f9a0"
   },
   {
-    "url": "component---src-pages-404-js-d401db86c763ad215921.js"
+    "url": "component---src-pages-404-js-fe2b809acd604cca5f41.js"
   },
   {
     "url": "static/d/164/path---404-html-516-62a-NZuapzHg3X9TaN1iIixfv1W23E.json",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/offline-plugin-app-shell-fallback/index.html", {
+workbox.routing.registerNavigationRoute("/trustworthy-marketing/offline-plugin-app-shell-fallback/index.html", {
   whitelist: [/^[^?]*([^.?]{5}|\.html)(\?.*)?$/],
   blacklist: [/\?(.+&)?no-cache=1$/],
 });

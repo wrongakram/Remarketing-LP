@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
             <img alt="vitalstorm logo" src={require('../images/vitalstorm-logo.png')}/>
           </Link>
           <Link to="/">
-            <span className="navnumber">Get Leads 800-780-9433</span>
+            <span className="navnumber">Get Leads <span id="number_rewrite">800-780-9433</span></span>
           </Link>
       </div>
     </div>}
