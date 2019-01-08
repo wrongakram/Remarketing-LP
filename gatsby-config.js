@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Vitalstorm Landing Page',
+    title: 'Vitalstorm - Get Leads',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

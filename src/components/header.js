@@ -22,9 +22,9 @@ const Header = ({ siteTitle }) => (
           <Link to="/">
             <img alt="vitalstorm logo" src={require('../images/vitalstorm-logo.png')}/>
           </Link>
-          <Link to="/">
+          <a href="tel:800-780-9433">
             <span className="navnumber">Get Leads <span id="number_rewrite">800-780-9433</span></span>
-          </Link>
+          </a>
       </div>
     </div>}
   </Spring>

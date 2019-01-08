@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 var Scroll = require('react-scroll');
 var Element = Scroll.Element;
 
@@ -20,9 +20,9 @@ class FormSection extends React.Component {
       body: data,
     }).then(response => {
         if (response.status >= 200 && response.status < 300) {
+          console.log(response);
+          window.location.reload();
             return response;
-            console.log(response);
-            window.location.reload();
           } else {
            console.log('Something went wrong');
           }
@@ -39,7 +39,7 @@ class FormSection extends React.Component {
   render() {
     return (
       <div className="form">
-      <Element name="scroll-to-element" className="element"></Element>
+      <Element name="scroll-to-element" className="element"/>
       <div className="inner">
       <div className="image_container">
         <img src={require('../images/secondary-image.png')} alt="technicians"/>
@@ -56,8 +56,8 @@ class FormSection extends React.Component {
             <button type="submit">Send it to me</button>
           </form>
         </div>
-      </div>
-    </div>
+      </div>// inner
+    </div> //form
     );
   }
 }
