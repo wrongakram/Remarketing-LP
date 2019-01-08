@@ -2,11 +2,6 @@
 .cache
 node_modules
 yarn-error.log
-
-# Build directory
+gatsby-config.js
 public
 .DS_Store
-
-
-# hidden
-gatsby-config.js
