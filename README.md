@@ -4,12 +4,11 @@ http://vitalstorm.com/trustworthy-marketing/
 
   **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
-
-npm install 
-
-` gatsby develop
-`
+     Navigate into your new site’s directory and start it up.
+     
+     Add your own gatsby-config file
+     npm install
+     gatsby develop
 
 ## 🎓 Learning Gatsby
 
