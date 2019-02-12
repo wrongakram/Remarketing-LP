@@ -1,12 +1,7 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import { Spring, config} from 'react-spring'
 import { Parallax } from 'react-scroll-parallax';
-
-var Scroll = require('react-scroll');
-var scroller = Scroll.scroller;
-
-
+import FormSection from './form';
 
 const First = ({ siteTitle }) => (
   <Spring
@@ -48,7 +43,7 @@ const First = ({ siteTitle }) => (
         delay={800}
         config={config.stiff}
       >
-      {(props) =>  <p style={props}>VitalStorm is a digital marketing agency that specializes in marketing for home service companies. We’ve been in business since 2011, and we’ve been focused on serving the home service industry all the while. <b>Our clients trust us</b> because we understand their sales goals and we know how to meet them.</p>}
+      {(props) =>  <p style={props}>VitalStorm has been in business since 2011, and we’ve been focused on serving the home service industry all the while. Our clients trust us because we speak their language. We communicate clearly and without filters. We manage every client account like it was our own. We deliver leads.</p>}
       </Spring>
       <Spring
         from={{
@@ -62,11 +57,7 @@ const First = ({ siteTitle }) => (
         delay={1000}
         config={config.stiff}
       >
-      {(props) => <div style={props} className="btn_row"><a onClick={() => {scroller.scrollTo('scroll-to-element', {
-        duration: 800,
-        delay: 0,
-        smooth: 'easeInOutQuart'
-      })}}>Find out how</a></div> }
+      {(props) => <div style={props}><FormSection name="get leads"/></div>}
       </Spring>
 
     </div>
